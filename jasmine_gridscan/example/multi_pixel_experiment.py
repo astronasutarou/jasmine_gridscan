@@ -30,7 +30,7 @@ if __name__ == '__main__':
     '--seed', type=int, default=42, metavar='seed',
     help='the seed value of the random generator')
   parser.add_argument(
-    '-n', '--num', type=int, default=1100, metavar='N',
+    '-n', '--num', type=int, default=1000, metavar='N',
     help='the number of measurements.')
   parser.add_argument(
     '--tstart', type=float, default=100, metavar='t',
